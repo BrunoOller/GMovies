@@ -1,0 +1,42 @@
+// Git Config
+git config --global user.name "BrunoOller"
+git config --global user.email brunobrunelli4@gmail.com
+
+git config --global user.name "Guibis17"
+git config --global user.email guilherme19.b07@gmail.com
+
+// Criação do Projeto
+npx create-expo-app@latest GMovies --template blank
+
+cd GMovies
+
+// Navegação
+npm install @react-navigation/native
+npm install @react-navigation/native-stack
+npx expo install react-native-screens
+npx expo install react-native-safe-area-context
+npx expo install react-native-gesture-handler
+
+// Tailwind
+npm install nativewind
+npm install --save-dev tailwindcss@3.3.2
+npx tailwindcss init
+
+// Carousel
+npm i react-native-reanimated-carousel
+npx expo install react-native-reanimated
+
+// Heroicons
+npm i react-native-heroicons
+
+// Gradiente
+npm i expo-linear-gradient
+
+// Barra Progresso
+npm i react-native-progress
+
+// Fetch API - Axios
+npm i axios
+
+// Sombra
+npm i react-native-shadow-2
